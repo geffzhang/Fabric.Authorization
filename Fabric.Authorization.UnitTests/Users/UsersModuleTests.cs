@@ -799,19 +799,19 @@ namespace Fabric.Authorization.UnitTests.Users
         {
             var adminGroup = new Group
             {
-                Id = @"Fabric\Health Catalyst Admin",
+                Id = new Guid(),
                 Name = @"Fabric\Health Catalyst Admin"
             };
 
             var contributorGroup = new Group
             {
-                Id = @"Fabric\Health Catalyst Contributor",
+                Id = new Guid(),
                 Name = @"Fabric\Health Catalyst Contributor"
             };
 
             var customGroup = new Group
             {
-                Id = "Custom Group",
+                Id = new Guid(),
                 Name = "Custom Group"
             };
 
